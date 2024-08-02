@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .skill-level {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .skill-level span {
+            width: 150px;
+            font-size: 1.125rem; 
+        }
+        .circles {
+            display: flex;
+        }
+        .circles div {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #ddd;
+            margin-right: 5px;
+        }
+        .circles .filled {
+            background: #3b82f6;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h1 class="text-3xl font-bold text-center text-gray-800">Currículum Vitae</h1>
+        </div>
+        <div class="flex flex-wrap">
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+                    <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Descripción Personal</h2>
+                    <p class="text-lg">Soy un desarrollador web especializado en Django, con una pasión por la inteligencia artificial. A lo largo de mi carrera, he trabajado en diversos proyectos web, creando soluciones eficientes y escalables. Mi interés por la IA me llevó a profundizar en este campo, culminando en una tesis de graduación centrada en modelos predictivos de series de tiempo.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+                    <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Datos Personales</h2>
+                    <p class="text-lg"><strong>Nombre:</strong> Ernesto Alamo</p>
+                    <p class="text-lg"><strong>Email:</strong> <a href="mailto:ernetoalamo@gmail.com" class="text-blue-500">ernetoalamo@gmail.com</a></p>
+                    <p class="text-lg"><strong>Teléfono:</strong> +5358517411</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+                    <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Habilidades</h2>
+                    <div class="skill-level">
+                        <span>Python</span>
+                        <div class="circles">
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                        </div>
+                    </div>
+                    <div class="skill-level">
+                        <span>Django</span>
+                        <div class="circles">
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="skill-level">
+                        <span>HTML</span>
+                        <div class="circles">
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                        </div>
+                    </div>
+                    <div class="skill-level">
+                        <span>CSS</span>
+                        <div class="circles">
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div ></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="skill-level">
+                        <span>JavaScript</span>
+                        <div class="circles">
+                            <div class="filled"></div>
+                            <div ></div>
+                            <div ></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="skill-level">
+                        <span>AI</span>
+                        <div class="circles">
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Idiomas</h2>
+                    <div class="skill-level">
+                        <span>Inglés</span>
+                        <div class="circles">
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="skill-level">
+                        <span>Español</span>
+                        <div class="circles">
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Certificaciones y Cursos</h2>
+            <ul class="list-disc list-inside text-lg">
+                <li>Certificación en Desarrollo Web - Plataforma Online (2020)</li>
+                <li>Curso de Python - Academia de Programación (2019)</li>
+                <!-- Añade más certificaciones y cursos según sea necesario -->
+            </ul>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+            <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Proyectos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-gray-200 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold">"Partiendo el gajo"</h3>
+                    <p class="mt-2">Aplicación web con Django para gestionar eventos y asistentes. La aplicación permite registrar eventos, mantener un historial de asistentes y eventos, y facilita el registro de nuevos asistentes mediante el escaneo de códigos QR de sus carnets de identificación.</p>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold">Modelos Predictivos de Series Temporales</h3>
+                    <p class="mt-2">Desarrollé tres modelos de inteligencia artificial para una empresa, utilizando LSTM, GRU y una combinación de ambos, con el objetivo de predecir el comportamiento de los datos en el tiempo.</p>
+                </div>
+                <div class="bg-gray-200 p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold">Herramienta ETL para Versat</h3>
+                    <p class="mt-2">Desarrollando una herramienta ETL en Django, diseñada para extraer, transformar y generar información en formatos compatibles con el sistema Versat ERP. Esta herramienta optimiza el proceso de carga inicial de datos, asegurando una integración eficiente y precisa de la información en el ERP.</p>
+                </div>
+                <!-- Añade más proyectos según sea necesario -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
